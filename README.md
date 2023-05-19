@@ -4,7 +4,7 @@ Here's a breakdown of what the program does:
 
 ## Breakdown
 1. It sets up the scene, camera, and renderer:
-* Creates a new scene.
+  * Creates a new scene.
 Creates a perspective camera with a specified field of view, aspect ratio, and near/far clipping planes.
 Creates a WebGL renderer with antialiasing.
 Sets the size of the renderer to match the window dimensions.
