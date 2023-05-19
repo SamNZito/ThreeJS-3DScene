@@ -213,7 +213,7 @@ scene.add(sphere4);
 scene.add(sphere5);
 
 //lighting, spotlight
-const spotlight = new THREE.SpotLight(0xffffff, .5, 0, Math.PI/5.5, );
+const spotlight = new THREE.SpotLight(0xffffff, .9, 0, Math.PI/5.5, );
 spotlight.position.set(-12, 7, 12);
 spotlight.target.position.set(0, 3, 0);
 spotlight.castShadow = true;
