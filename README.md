@@ -5,12 +5,12 @@ Here's a breakdown of what the program does:
 ## Breakdown
 1. It sets up the scene, camera, and renderer:
    - Creates a new scene.
-Creates a perspective camera with a specified field of view, aspect ratio, and near/far clipping planes.
-Creates a WebGL renderer with antialiasing.
-Sets the size of the renderer to match the window dimensions.
-Appends the renderer to the document body.
-Sets the scene background color to white.
-It creates a WebGLRenderTarget for the environment map:
+   - Creates a perspective camera with a specified field of view, aspect ratio, and near/far clipping planes.
+   - Creates a WebGL renderer with antialiasing.
+   - Sets the size of the renderer to match the window dimensions.
+   - Appends the renderer to the document body.
+   - Sets the scene background color to white.
+2. It creates a WebGLRenderTarget for the environment map:
 
 Creates a render target for the environment map.
 Sets the texture mapping for the render target to EquirectangularReflectionMapping.
