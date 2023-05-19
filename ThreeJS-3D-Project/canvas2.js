@@ -33,7 +33,7 @@ const pmremGenerator = new THREE.PMREMGenerator(renderer);
 pmremGenerator.compileEquirectangularShader();
 
 // Load the HDR environment map texture
-hdrLoader.load('http://192.168.68.112:8080/picture/hdr.hdr', function (texture) {
+hdrLoader.load('hdr.hdr', function (texture) {
   const envMap = pmremGenerator.fromEquirectangular(texture).texture; // Generate the environment map from the HDR texture
   scene.environment = envMap; // Set the environment map for the scene
   envMapMaterial.envMap = envMap; // Set the environment map for the material
